@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  height: 20px;
+  margin-top: 1px;
+  display: flex;
+}
+
+.column-id {
+  width: 10%;
+}
+
+.column-title {
+  width: 90%;
+}
+
+.striped {
+  background-color: red;
+}
