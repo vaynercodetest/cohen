@@ -2,6 +2,7 @@
   display: flex;
   width: 95%;
   margin: auto;
+  color: #1b1d1c;
 }
 
 .user {
@@ -11,15 +12,29 @@
   margin: 10px;
 }
 
+h3 {
+  margin-bottom: 10px;
+}
+
 .table {
   display: flex;
   flex-direction: column;
+  font-size: large;
+}
+
+.table-body {
+  -webkit-flex: 1 1 auto;
+  overflow-y: auto;
+  height: 250px;
 }
 
 .row {
-  height: 20px;
-  margin-top: 1px;
   display: flex;
+  height: 25px;
+}
+
+.striped {
+  background-color: lightcyan;
 }
 
 .column-id {
@@ -28,8 +43,4 @@
 
 .column-title {
   width: 90%;
-}
-
-.striped {
-  background-color: red;
 }
